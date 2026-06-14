@@ -1,0 +1,19 @@
+{
+  "name": "nitro-convert",
+  "version": "1.0.0",
+  "description": "CLI tool to convert Habbo Nitro (.nitro) bundles to/from JSON",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": { "nitro-convert": "dist/cli.js" },
+  "main": "dist/core/converter.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["habbo", "nitro", "converter", "json", "cli"],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
