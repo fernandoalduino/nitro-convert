@@ -7,7 +7,7 @@ so any language or tool can read and edit Nitro asset data.
 `.nitro` files are binary archives containing a JSON index plus one or more
 zlib-compressed spritesheets. `nitro-convert` unpacks them into a single,
 human-readable JSON (with binary assets as base64) and can repack them back
-**losslessly**. Works for rooms, furni, figures, effects, pets — anything that
+**losslessly**. Works for rooms, furni, figures, effects, pets: anything that
 ships as a Nitro bundle.
 
 ## Install
